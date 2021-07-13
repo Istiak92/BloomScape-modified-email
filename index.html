@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width = device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promotional email BloomScape</title>
     <style type="text/css">
       body {
@@ -40,7 +40,7 @@
         max-width: 600px;
         border-spacing: 0;
         color: #224229;
-        font-family: Georgia, "Times New Roman", Times, serif;
+        font-family: Georgia, Times, Times New Roman, serif;
       }
 
       .two-columns {
@@ -61,9 +61,10 @@
 
       .button2 {
         background-color: #f6cfb2;
-        padding: 12px 20px;
-        color: #224229;
-        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 36px;
+        display: inline-block;
         border: 1px solid #224229;
         font-size: 17px;
         border-radius: 5px;
@@ -73,35 +74,46 @@
         color: #224229;
         text-decoration: none;
       }
-      @media screen and (max-width: 600px) {
-        .two-columns img {
-          width: 100% !important;
-          max-width: 300px !important;
+      @media screen and (max-width: 599.99px) {
+        .Shop-img {
+          width: 260px !important;
+          max-width: 260px !important;
         }
 
-        .two-columns div {
-          font-size: 24px !important;
+        .Shop-detail {
+          width: 260px !important;
+          max-width: 260px !important;
         }
-
-        .two-columns .padding {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
+        .download-app {
+          width: 260px !important;
+          max-width: 260px !important;
         }
       }
 
-      @media screen and (max-width: 400px) {
-        .two-columns img {
-          width: 300px !important;
-          max-width: 300px !important;
+      @media screen and (max-width: 499.98px) {
+        .Shop-img {
+          width: 100% !important;
+          max-width: 100% !important;
+          text-align: center !important;
         }
 
-        .two-columns div {
-          font-size: 24px !important;
+        .Shop-detail {
+          width: 100% !important;
+          max-width: 100% !important;
+          text-align: center !important;
         }
-
-        .two-columns .padding {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
+        .shop-header {
+          padding-top: 0 !important;
+        }
+        .spacer {
+          line-height: 20px !important;
+        }
+        .download-app {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .download-app2 {
+          padding-top: 10px !important;
         }
       }
     </style>
@@ -124,9 +136,10 @@
                 <td align="center" style="padding: 32px">
                   <a
                     href="https://bloomscape.com/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                    rel="noopener"
                     target="_blank"
                     ><img
-                      src="img/logo-img.png"
+                      src="https://i.ibb.co/YZ1JhDF/logo-img.png"
                       width="192"
                       style="max-width: 192px; display: block"
                       alt=""
@@ -137,7 +150,7 @@
             <!--End of Logo Section-->
           </td>
         </tr>
-        <!--Start of 1st img with Section-->
+        <!--Start of 1st img Section-->
         <tr>
           <td style="padding-bottom: 20px">
             <table width="100%" style="border-spacing: 0" role="presentation">
@@ -145,9 +158,10 @@
                 <td align="center">
                   <a
                     href="https://bloomscape.com/shop/featured/new-arrivals/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                    rel="noopener"
                     target="_blank"
                     ><img
-                      src="img/1st-img.jpg"
+                      src="https://i.ibb.co/ZYm1wv8/1st-img.jpg"
                       width="100%"
                       style="max-width: 200vw; display: inline-block"
                       alt=""
@@ -157,12 +171,19 @@
             </table>
           </td>
         </tr>
-        <!--End of 1st img with Section-->
+        <!--End of 1st img Section-->
 
         <!--Start of "Really Good Gifts" Section-->
         <tr>
-          <td style="padding-bottom: 60px">
-            <table width="100%" style="border-spacing: 0" role="presentation">
+          <td style="padding-bottom: 45px">
+            <table
+              width="100%"
+              style="
+                border-spacing: 0;
+                font-family: Georgia, Times, Times New Roman, serif;
+              "
+              role="presentation"
+            >
               <tr>
                 <td align="center" style="padding: 0 40px">
                   <p
@@ -210,11 +231,12 @@
                 </td>
               </tr>
               <tr>
-                <td align="center" style="padding: 0 40px">
-                  <p>
+                <td align="center" width="100%" style="display: inline-block">
+                  <p align="center">
                     <a
                       class="button1"
                       href="https://bloomscape.com/shop/featured/new-arrivals/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                      rel="noopener"
                       target="_blank"
                       >Come See What's New</a
                     >
@@ -233,7 +255,7 @@
               class="Shop-img"
               align="left"
               width="300"
-              style="border-spacing: 0"
+              style="border-spacing: 0; max-width: 100%"
               role="presentation"
             >
               <tr>
@@ -246,9 +268,10 @@
                 >
                   <a
                     href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                    rel="noopener"
                     target="_blank"
                     ><img
-                      src="img/2nd-img.jpg"
+                      src="https://i.ibb.co/FwTnRDk/2nd-img.jpg"
                       alt=""
                       width="260"
                       style="max-width: 260px; border: 0; padding: 20px 0"
@@ -267,20 +290,24 @@
               style="
                 font-family: Georgia, Times, Times New Roman, serif;
                 padding-bottom: 20px;
+                max-width: 100%;
               "
             >
               <tr>
-                <td style="text-align: center; padding: 50px 20px 20px">
-                  <div
+                <td
+                  class="shop-header"
+                  style="text-align: center; padding: 50px 20px 20px"
+                >
+                  <p
                     style="
                       font-size: 22px;
                       font-weight: 300;
                       line-height: 1.2;
-                      color: #224229;
+                      margin: 0;
                     "
                   >
                     <em>Wild at Home</em>
-                  </div>
+                  </p>
                 </td>
               </tr>
               <tr>
@@ -300,13 +327,15 @@
                 </td>
               </tr>
               <tr>
-                <td align="center" style="padding-top: 15px">
-                  <a
-                    class="button2"
-                    href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
-                    target="_blnak"
-                    >Shop Now</a
-                  >
+                <td align="center" style="padding-top: 10px">
+                  <p style="margin: 0">
+                    <a
+                      class="button2"
+                      href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                      target="_blnak"
+                      >Shop Now</a
+                    >
+                  </p>
                 </td>
               </tr>
             </table>
@@ -321,22 +350,23 @@
               class="Shop-img"
               align="right"
               width="300"
-              style="border-spacing: 0"
+              style="border-spacing: 0; max-width: 100%"
               role="presentation"
             >
               <tr>
                 <td
                   style="
-                    padding-left: 20px;
-                    padding-left: 20px;
+                    padding-right: 10px;
+                    padding-left: 10px;
                     line-height: inherit;
                   "
                 >
                   <a
                     href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                    rel="noopener"
                     target="_blank"
                     ><img
-                      src="img/3rd-img.jpg"
+                      src="https://i.ibb.co/Fn2zFtM/3rd-img.jpg"
                       alt=""
                       width="260"
                       style="max-width: 260px; border: 0; padding: 20px 0"
@@ -354,16 +384,25 @@
               cellspacing="0"
               style="
                 font-family: Georgia, Times, Times New Roman, serif;
-                padding-bottom: 20px; ;
+                padding-bottom: 20px;
+                max-width: 100%;
               "
             >
               <tr>
-                <td style="text-align: center; padding: 50px 20px 20px">
-                  <div
-                    style="font-size: 22px; font-weight: 300; line-height: 1.2"
+                <td
+                  class="shop-header"
+                  style="text-align: center; padding: 50px 20px 20px"
+                >
+                  <p
+                    style="
+                      font-size: 22px;
+                      font-weight: 300;
+                      line-height: 1.2;
+                      margin: 0;
+                    "
                   >
                     <em>Wild Interiors</em>
-                  </div>
+                  </p>
                 </td>
               </tr>
               <tr>
@@ -383,7 +422,7 @@
                 </td>
               </tr>
               <tr>
-                <td align="center" style="padding-top: 15px">
+                <td align="center" style="padding-top: 10px">
                   <a
                     class="button2"
                     href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
@@ -404,22 +443,23 @@
               class="Shop-img"
               align="left"
               width="300"
-              style="border-spacing: 0"
+              style="border-spacing: 0; max-width: 100%"
               role="presentation"
             >
               <tr>
                 <td
                   style="
-                    padding-left: 20px;
-                    padding-left: 20px;
+                    padding-right: 10px;
+                    padding-left: 10px;
                     line-height: inherit;
                   "
                 >
                   <a
                     href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                    rel="noopener"
                     target="_blank"
                     ><img
-                      src="img/4th-img.jpg"
+                      src="https://i.ibb.co/GnqjhPV/4th-img.jpg"
                       alt=""
                       width="260"
                       style="max-width: 260px; border: 0; padding: 20px 0"
@@ -438,15 +478,24 @@
               style="
                 font-family: Georgia, Times, Times New Roman, serif;
                 padding-bottom: 20px;
+                max-width: 100%;
               "
             >
               <tr>
-                <td style="text-align: center; padding: 50px 20px 20px">
-                  <div
-                    style="font-size: 22px; font-weight: 300; line-height: 1.2"
+                <td
+                  class="shop-header"
+                  style="text-align: center; padding: 50px 20px 20px"
+                >
+                  <p
+                    style="
+                      font-size: 22px;
+                      font-weight: 300;
+                      line-height: 1.2;
+                      margin: 0;
+                    "
                   >
                     <em>The Drunken Botanist</em>
-                  </div>
+                  </p>
                 </td>
               </tr>
               <tr>
@@ -464,6 +513,7 @@
                     <a
                       href="https://bloomscape.com/product/cocktail-collection/?utm_source=Iterable&amp;utm_medium=email&amp;utm_campaign=201207_contact_new-care-books"
                       style="color: #018342; text-decoration: underline"
+                      rel="noopener"
                       target="_blank"
                       >Cocktail Collection</a
                     >, too!
@@ -471,7 +521,7 @@
                 </td>
               </tr>
               <tr>
-                <td align="center" style="padding-top: 15px">
+                <td align="center" style="padding-top: 10px">
                   <a
                     class="button2"
                     href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
@@ -492,22 +542,23 @@
               class="Shop-img"
               align="right"
               width="300"
-              style="border-spacing: 0"
+              style="border-spacing: 0; max-width: 100%"
               role="presentation"
             >
               <tr>
                 <td
                   style="
-                    padding-left: 20px;
-                    padding-left: 20px;
+                    padding-right: 10px;
+                    padding-left: 10px;
                     line-height: inherit;
                   "
                 >
                   <a
                     href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                    rel="noopener"
                     target="_blank"
                     ><img
-                      src="img/5th-img.jpg"
+                      src="https://i.ibb.co/k5qDsPf/5th-img.jpg"
                       alt=""
                       width="260"
                       style="max-width: 260px; border: 0; padding: 20px 0"
@@ -526,15 +577,24 @@
               style="
                 font-family: Georgia, Times, Times New Roman, serif;
                 padding-bottom: 20px;
+                max-width: 100%;
               "
             >
               <tr>
-                <td style="text-align: center; padding: 50px 20px 20px">
-                  <div
-                    style="font-size: 22px; font-weight: 300; line-height: 1.2"
+                <td
+                  class="shop-header"
+                  style="text-align: center; padding: 50px 20px 20px"
+                >
+                  <p
+                    style="
+                      font-size: 22px;
+                      font-weight: 300;
+                      line-height: 1.2;
+                      margin: 0;
+                    "
                   >
                     <em>Jack's Houseplant Special Fertilizer (15-3-15)</em>
-                  </div>
+                  </p>
                 </td>
               </tr>
               <tr>
@@ -555,7 +615,7 @@
                 </td>
               </tr>
               <tr>
-                <td align="center" style="padding-top: 15px">
+                <td align="center" style="padding-top: 10px">
                   <a
                     class="button2"
                     href="https://bloomscape.com/product/wild-at-home/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
@@ -570,7 +630,9 @@
         <!--End of "Jack's Houseplant Special" Section-->
 
         <tr>
-          <td style="font-size: 1px; line-height: 40px">&nbsp;</td>
+          <td class="spacer" style="font-size: 1px; line-height: 40px">
+            &nbsp;
+          </td>
         </tr>
 
         <!--Start of "Winter is coming" Section-->
@@ -584,7 +646,7 @@
               <img
                 align="center"
                 border="0"
-                src="img/Winter-img.jpeg"
+                src="https://i.ibb.co/zGXkDYT/Winter-img.jpg"
                 alt="Winter Plant Care Virtual Workshop"
                 width="568"
                 style="
@@ -845,7 +907,9 @@
         <!--End of "Winter is coming" Section-->
 
         <tr>
-          <td style="font-size: 1px; line-height: 40px">&nbsp;</td>
+          <td class="spacer" style="font-size: 1px; line-height: 40px">
+            &nbsp;
+          </td>
         </tr>
 
         <!--Start of Ending Section-->
@@ -860,15 +924,20 @@
               border="0"
               cellpadding="0"
               cellspacing="0"
-              style="max-width: 600px"
+              style="
+                max-width: 600px;
+                font-family: Georgia, Times New Roman, Times, serif;
+                padding-bottom: 40px;
+              "
             >
               <tr>
                 <td align="center" width="100%" style="font-size: 0">
                   <a
                     href="https://bloomscape.com/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                    rel="noopener"
                     target="_blank"
                     ><img
-                      src="img/6th-img.png"
+                      src="https://i.ibb.co/djbx7Y6/6th-img.png"
                       width="100%"
                       style="max-width: 450px"
                       alt=""
@@ -904,25 +973,27 @@
                             <td align="center" style="padding: 0 5px">
                               <a
                                 href="https://www.instagram.com/bloomscape/?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                                rel="noopener"
                                 target="_blank"
                                 ><img
                                   width="32"
                                   height="32"
                                   alt="Instagram"
                                   title="Instagram"
-                                  src="https://i.ibb.co/5BnfZ6g/Instagram-icon.png"
+                                  src="https://i.ibb.co/njjd7Qt/Instagram-icon.png"
                               /></a>
                             </td>
                             <td align="center" style="padding: 0 5px">
                               <a
                                 href="https://www.pinterest.com/bloomscape/_shop/"
+                                rel="noopener"
                                 target="_blank"
                                 ><img
                                   width="32"
                                   height="32"
                                   alt="Pinterest"
                                   title="Pinterest"
-                                  src="https://i.ibb.co/3FDmMnv/Pinterest-icon.png"
+                                  src="https://i.ibb.co/T0v2K8Q/Pinterest-icon.png"
                               /></a>
                             </td>
                           </tr>
@@ -952,22 +1023,28 @@
                 </td>
               </tr>
               <!--End of "Download Vera header"-->
+
               <!--Start of Download App img Section -->
               <tr>
                 <td align="center" style="background-color: #224229">
                   <table
+                    class="download-app"
                     align="left"
                     width="300"
-                    style="border-spacing: 0; max-width: 300px"
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="max-width: 300px"
                     role="presentation"
                   >
                     <tr>
                       <td align="center">
                         <a
                           href="https://apps.apple.com/us/app/vera-plant-care-app/id1474870193?utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                          rel="noopener"
                           target="_blank"
                           ><img
-                            src="img/ios-img.png"
+                            src="https://i.ibb.co/Rjfhmmq/ios-img.png"
                             width="100%"
                             style="max-width: 200px"
                             alt=""
@@ -976,6 +1053,7 @@
                     </tr>
                   </table>
                   <table
+                    class="download-app download-app2"
                     align="left"
                     width="300"
                     border="0"
@@ -988,9 +1066,10 @@
                       <td align="center">
                         <a
                           href="https://play.google.com/store/apps/details?id=us.crema.vera&hl=en_US&utm_source=Iterable&utm_medium=email&utm_campaign=201207_contact_new-care-books"
+                          rel="noopener"
                           target="_blank"
                           ><img
-                            src="img/android-img.png"
+                            src="https://i.ibb.co/4fvY4Jt/android-img.png"
                             width="100%"
                             style="max-width: 200px"
                             alt=""
@@ -1007,14 +1086,83 @@
                 <td
                   align="center"
                   style="
-                    font-size: 14px;
-                    padding: 20px 20px 10px;
+                    font-size: 13px;
+                    padding: 20px 24px 10px;
                     color: #fbf9f4;
                   "
                 >
                   <p style="line-height: 1.5; margin: 0 !important">
                     Bloomscape, Inc. | 5000 Grand River Ave. Detroit, Michigan
                     48826 | United States
+                  </p>
+                  <p></p>
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  align="center"
+                  style="
+                    font-size: 13px;
+                    padding: 0 20px 20px;
+                    line-height: 1.5;
+                    color: #fbf9f4;
+                  "
+                >
+                  <p
+                    style="
+                      font-size: 13px;
+                      line-height: 1.5;
+                      text-align: center;
+                      margin: 0;
+                    "
+                  >
+                    You received this message because you are subscribed to
+                    Newsletters from Bloomscape. Tired of receiving these
+                    messages from us? We'll be sad, of course, but not offended.
+                  </p>
+                  <p
+                    style="
+                      font-size: 14px;
+                      line-height: 1.5;
+                      word-break: break-word;
+                      text-align: center;
+                      margin: 0;
+                    "
+                  >
+                    <a
+                      style="
+                        line-height: inherit;
+                        text-decoration: underline;
+                        color: #f6cfb2;
+                      "
+                      href="https://links.bloomscape.com/e/encryptedUnsubscribe?_r=c8045bd81abe446ea693c86e3974991e&_s=be91b55edec34e95bd7ffdfad25cbc86&_t=oH18xRROjNkk987WkrJwfwyRZlNJowi5ZeXsGPIhaLGrbFU3OGIKzLhiBTI0dvwONXR6hCqKSPJHnrA7npkvkOFU0HUjQdUvaL-vlCWkaXV2FobHiq_95wLfsnGIyOtkAt1XPDaN2VfB5j5WSkG4ENslmfBRqQ2rpczWwOubpSPNA1bs7nvjSvVGKKOE2IEP"
+                      rel="noopener"
+                      target="_blank"
+                      >Click here to unsubscribe from ALL Marketing Emails</a
+                    >
+                  </p>
+                  <p
+                    style="
+                      font-size: 13px;
+                      line-height: 1.5;
+                      word-break: break-word;
+                      text-align: center;
+                      margin: 0;
+                    "
+                  >
+                    To unsubscribe from Newsletter Emails only,
+                    <a
+                      style="
+                        line-height: inherit;
+                        text-decoration: underline;
+                        color: #f6cfb2;
+                      "
+                      href="https://links.bloomscape.com/e/encryptedUnsubscribe?_r=c8045bd81abe446ea693c86e3974991e&_s=be91b55edec34e95bd7ffdfad25cbc86&_t=oH18xRROjNkk987WkrJwfwyRZlNJowi5ZeXsGPIhaLGrbFU3OGIKzLhiBTI0dvwONXR6hCqKSPJHnrA7npkvkOFU0HUjQdUvaL-vlCWkaXXpktBRm_eK6vnyUALv8SHlq3jYrus6FMWFpErcXYsZBfJz5u3DdGriEMr8RQ-QG3Z_OlrwDO07-zhs92Cy7PNg_Mu0nUF2eBFp8vpzhOBdUGSwFWV1zfJ1xfnHio5WOeY%3D"
+                      rel="noopener"
+                      target="_blank"
+                      >Unsubscribe</a
+                    >.
                   </p>
                 </td>
               </tr>
